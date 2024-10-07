@@ -18,7 +18,6 @@ public class CalculatorV3 {
         Double operator1 = sc.nextDouble();
         Double operator2 = sc.nextDouble();
         String op = sc.next();
-        //1System.out.println("Operator is "+op);
         System.out.println(cal.doCalculation(operator1, operator2, op));
 
     }

@@ -17,20 +17,6 @@ public class CalculatorV2 {
         double b = scanner.nextDouble();
         String op = scanner.nextLine();
         System.out.println(doCalc(a, b, op));
-
-        /*if(op.equals("+")) {
-            System.out.println("ans="+(a+b));
-        } else if(op.equals("-")) {
-            System.out.println("ans="+(a-b));
-        }
-        else if(op.equals("/")) {
-            System.out.println("ans="+(a/b));
-        }
-        else if(op.equals("*")) {
-            System.out.println("ans="+(a*b));
-        } else {
-            System.out.println("Invalid operation error.");
-        }*/
     }
 
     public double doCalc(double a, double b, String op) {
